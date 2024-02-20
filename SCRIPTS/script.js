@@ -15,4 +15,10 @@ form1.addEventListener('submit', function (e) {
 
 form2.addEventListener('submit', function (e) {
   e.preventDefault();
+  let number1 = document.querySelector('#number1');
+  let number2 = document.querySelector('#number2');
+  console.log('Opgave 2:');
+  console.log(parseInt(number1.value) + parseInt(number2.value));
+  number1.value = '';
+  number2.value = '';
 });

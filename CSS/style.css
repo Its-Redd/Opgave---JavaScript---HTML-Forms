@@ -15,6 +15,7 @@ body {
 /* Header Styling */
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px 10%;
